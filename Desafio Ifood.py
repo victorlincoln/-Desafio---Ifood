@@ -11,15 +11,15 @@ Viena_Shopping_Santa_Cruz = [4.4, 12.49, "Viena Shopping Santa Cruz" ]
 lista_restaurantes = [kibon_Sorveteria_Saude, Makis_Place_Saude, Sukiya_Saude, Giraffas_Carrefour_Metrocar, A_feijoada, Viena_Shopping_Santa_Cruz]
 
 for x in lista_restaurantes:
-    if x[0] >=4.9:
+    if x == kibon_Sorveteria_Saude:
         print("1º: {} (nota {} com frete de R$ {})".format(x[2], x[0], x[1]))
-    elif x[0] >= 4.7:
+    elif x == Makis_Place_Saude:
         print("2º: {} (nota {} com frete de R$ {})".format(x[2], x[0], x[1]))
-    elif x[0] >= 4.6 and x[1] <= 7.99:
+    elif x == Sukiya_Saude:
         print("3º: {} (nota {} com frete de R$ {})".format(x[2], x[0], x[1]))
-    elif x[0] >= 4.4 and x[1] <=5.99:
-        print("4º: {} (nota {} com frete de R$ {})".format(x[2], x[0], x[1]))
-    elif x[0] >= 4.4 and x[1] <= 9.90:
-        print("5º: {} (nota {} com frete de R$ {})".format(x[2], x[0], x[1]))
-    elif x[0] >= 4.4 and x[1] <=12.49:
-        print("6º: {} (nota {} com frete de R$ {})".format(x[2], x[0], x[1]))
+    elif x == Giraffas_Carrefour_Metrocar:
+      print("4º: {} (nota {} com frete de R$ {})".format(x[2], x[0], x[1]))
+    elif x == A_feijoada :
+     print("5º: {} (nota {} com frete de R$ {})".format(x[2], x[0], x[1]))
+    elif x == Viena_Shopping_Santa_Cruz :
+     print("6º: {} (nota {} com frete de R$ {})".format(x[2], x[0], x[1]))
